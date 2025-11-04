@@ -9,8 +9,8 @@ function module.new()
 	return module2
 end
 
-function module:DoThing()
-	print("Hello")
+function module:DoThing(text: string)
+	print(string)
 end
 
 return module
